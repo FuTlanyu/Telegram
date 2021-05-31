@@ -37,3 +37,11 @@ You will require Android Studio 3.4, Android NDK rev. 20 and Android SDK 8.1
 ### Localization
 
 We moved all translations to https://translations.telegram.org/en/android/. Please use it.
+
+
+### Telegram with speech recognition
+The speech recognition is implemented with Google Speech-to-Text API. In order to use the API, make sure to get the JSON credentials file from Google Cloud and put the file in the app resources as `app/src/main/res/raw/credential.json`
+
+
+
+
